@@ -1,12 +1,12 @@
 function  newFunction (name, age, country) {
-    var name = name || "Saori";
-    var age = age || 32;
-    var country = country || "Colombia";
+    var name = name || "Luna";
+    var age = age || 23;
+    var country = country || "Brasil";
     console.log(name, age, country)
 }
 
 //es6
-function newFunction2 (name = "Saori", age = 32, country = "Colombia")
+function newFunction2 (name = "Teresa", age = 29, country = "Argentina")
 {
     console.log(name, age, country);
 };
@@ -14,22 +14,22 @@ function newFunction2 (name = "Saori", age = 32, country = "Colombia")
 newFunction2();
 newFunction2("Edward", 27, "Uruguay");
 
-let hello = "Hello";
-let world = "World";
+let hello = "Hola";
+let world = "Mundo";
 let phrase = `${hello} ${world}`
 console.log(phrase);
 
-let lorem = "Qui consiquatur ipsum duis yet minima \n" + "qui elsim not darme tum."
+let lorem = "Bienvenidos, este es un directorio \n" + "para intercambiar información."
 console.log(lorem);
 //es6
-let lorem2 = `Qui consiquatur ipsum duis yet minima
-qui elsim not darme tum
+let lorem2 = `Otros temas intercambiables sobre mindfullness
+y también podemos intercambiar tips de seguridad
 `;
 console.log(lorem2);
 
 let  userNet = {
-    "name": "Luna",
-    "age": 32,
+    "name": "Angelica",
+    "age": 27,
     "country": "Panama",
 }
 
@@ -38,7 +38,7 @@ console.log(userNet.name, userNet.age, userNet.country);
  let { name, age, country } = userNet;
  console.log(name, age, country);
 
- let groupOrange = [ "Dana", "Rosie", "Perl"];
+ let groupOrange = [ "Dana", "Rosie", "Perla"];
  let groupGreen = [ "Ron", "Harry", "Hermione"];
  let classRoom = [ "Science", ...groupOrange, ...groupGreen];
  console.log(classRoom);
